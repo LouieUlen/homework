@@ -34,9 +34,7 @@ padding: 0;
   line-height: 22px;
   color: white;
   text-transform: uppercase;
-  padding: 8px;
- 
- 
+  padding: 8px; 
 }
 .menu_nav li a:hover {
   background-color: #130e27;
