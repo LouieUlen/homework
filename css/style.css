@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=PT+Serif&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -26,6 +28,9 @@ margin-top: 75px;
 width: 526px;
 justify-content: space-between;
 padding: 0;
+font-family: 'Montserrat', sans-serif;
+font-weight: 500px;
+font-style: normal;
 }
 
 .menu_nav li a {
@@ -48,6 +53,7 @@ padding: 0;
   font-size: 90px;
   line-height: 82px;
   color: #130e27;
+  font-family: 'Montserrat', sans-serif;
 }
 .car_now {
   color: white;
@@ -78,6 +84,10 @@ padding: 0;
   margin: 50px 871px 0 190px;
   text-transform: uppercase;
   color: #130e27;
+  font-size: 48px;
+line-height: 61px;
+font-family: 'Montserrat', sans-serif;
+width: 380px;
 }
 .box_OUR {
   color: #c62314;
@@ -87,6 +97,7 @@ padding: 0;
   justify-content: space-around;
   align-items: center;
   margin-top: 82px;
+  margin-bottom: 70px;
 }
 .box_top_card_inner {
   font-size: 20px;
@@ -123,9 +134,86 @@ text-transform: uppercase;
 background-color: #C62314;
 border-radius: 5px;
 color: white;
+border: none;
+font-family: 'Montserrat', sans-serif;
+font-weight: 500px;
 }
 .button_box_second:hover {
   color: #130e27;
   background-color: white;
   cursor: pointer;
+}
+.box_end {
+ height: 691px;
+ background-color: #EFEFEF;
+}
+.end_title {
+  padding-top: 50px;
+  margin-top: 0;
+  text-align: center;
+  font-size: 50px;
+line-height: 61px;
+text-transform: uppercase;
+font-family: 'Montserrat', sans-serif;
+}
+.box_end_card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.box_end_card_inner {
+  background-color: white;
+  width: 340px;
+  height: 460px; 
+  text-align: center;
+}
+.level_price {
+  font-size: 22px;
+line-height: 28px;
+color: #161616;
+margin-top: 35px;
+margin-bottom: 40px;
+}
+.price {
+  font-size: 50px;
+line-height: 61px;
+color: #C62314;
+margin-bottom: 30px;
+margin-top: 40px;
+font-family: 'Montserrat', sans-serif;
+}
+.end_text {
+  font-size: 20px;
+line-height: 28px;
+color: #161616;
+font-family: 'PT Serif', serif;
+
+}
+.end_button {
+  margin-top: 40px;
+  background-color: #130e27;
+  width: 205px;
+  height: 50px;
+  border-radius: 5px;
+  color: white;
+  margin-top: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+line-height: 27px;
+font-weight: 500px;
+}
+.end_button:hover {
+  background-color: #C62314;
+  cursor: pointer;
+  border: none;
+}
+.end_text1 {
+  width: 152px;
+  height: 140px;
+  margin: 0 auto;
+}
+.end_text2 {
+  width: 193px;
+  height: 140px;
+  margin: 0 auto;
 }
