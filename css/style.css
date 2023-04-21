@@ -30,7 +30,6 @@ justify-content: space-between;
 padding: 0;
 font-family: 'Montserrat', sans-serif;
 font-weight: 500px;
-font-style: normal;
 }
 
 .menu_nav li a {
@@ -55,7 +54,7 @@ font-style: normal;
   color: #130e27;
   font-family: 'Montserrat', sans-serif;
 }
-.car_now {
+.car_now, .text_footer {
   color: white;
 }
 
@@ -74,10 +73,8 @@ font-style: normal;
   justify-content: space-around;
   align-items: center;
 }
-.text_footer {
-  color: white;
-}
-.span_footer {
+
+.span_footer, .box_OUR {
   color: #c62314;
 }
 .box_title {
@@ -89,9 +86,7 @@ line-height: 61px;
 font-family: 'Montserrat', sans-serif;
 width: 380px;
 }
-.box_OUR {
-  color: #c62314;
-}
+
 .box_top_card {
   display: flex;
   justify-content: space-around;
