@@ -74,4 +74,58 @@ padding: 0;
 .span_footer {
   color: #c62314;
 }
-
+.box_title {
+  margin: 50px 871px 0 190px;
+  text-transform: uppercase;
+  color: #130e27;
+}
+.box_OUR {
+  color: #c62314;
+}
+.box_top_card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 82px;
+}
+.box_top_card_inner {
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;  
+}
+.img_top {
+  width: 163px;
+  height: 56;
+}
+.box_top_text {
+  width: 163px;
+  color: #161616;
+}
+.box_second {
+  background-color: #130e27;
+  height: 124px;
+  color: white;
+  font-size: 20px;
+line-height: 28px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.box_second_text {
+  width: 611px;
+}
+.button_box_second {
+  width: 270px;
+  height: 64px;
+  font-size: 22px;
+line-height: 27px;
+text-transform: uppercase;
+background-color: #C62314;
+border-radius: 5px;
+color: white;
+}
+.button_box_second:hover {
+  color: #130e27;
+  background-color: white;
+  cursor: pointer;
+}
